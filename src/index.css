@@ -1,0 +1,14 @@
+*{box-sizing:border-box}body{margin:0;background:#FFFBE9;color:#3B2A20;font-family:Georgia,serif;line-height:1.5}
+nav{background:#AD8B73;display:flex;justify-content:space-between;align-items:center;padding:.6rem 1rem;flex-wrap:wrap;gap:.5rem}
+main{max-width:900px;margin:0 auto;padding:1rem}
+button{background:#AD8B73;color:#3B2A20;border:1px solid #CEAB93;padding:.45rem .9rem;border-radius:4px;cursor:pointer;margin:.2rem;font:inherit}
+button:hover{background:#CEAB93}nav button{border-color:#3B2A20}
+.link{background:none;border:none;text-decoration:underline}
+.card{background:#E3CAA5;border:1px solid #CEAB93;border-radius:6px;padding:1rem;margin:.7rem 0}
+.badge{background:#CEAB93;border-radius:10px;padding:.1rem .6rem;font-size:.85rem}
+input,select,textarea{display:block;width:100%;background:#FFFBE9;color:#3B2A20;border:1px solid #CEAB93;border-radius:4px;padding:.5rem;margin:.3rem 0 .6rem;font:inherit}
+label{display:block}.auth{max-width:380px;margin:2rem auto}
+table{width:100%;border-collapse:collapse;display:block;overflow-x:auto}th{background:#E3CAA5;text-align:left}th,td{padding:.5rem;border:1px solid #CEAB93}
+.row{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap}.row h2{flex:1}
+.err{color:#A8493B}.ok{color:#5B7F4F}.poster{max-width:200px;border:1px solid #CEAB93}
+.tabs{display:flex;flex-wrap:wrap}.tabs .on{background:#CEAB93}
